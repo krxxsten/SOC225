@@ -1,0 +1,101 @@
+body {
+    background-color: #e9e8e4;
+}
+
+header {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    text-shadow: 2px 2px 2px grey;
+    text-align: center;
+    font-size: 35px;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-shadow: 2px 2px 2px grey;
+    font-family: "Helvetica Neue";
+    letter-spacing: .1em;
+    padding: .5rem .2rem;
+}
+
+/* about our project page */
+
+h1, h2, h3 {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    letter-spacing: .1em;
+}
+
+
+
+p {
+    font-family: "Arial";
+    background-color: rgb(198, 196, 196);
+    border-radius: 10px;
+    margin: 1.5rem;
+    padding: 1rem 6rem 1rem 4rem;
+    line-height: 1.8em;
+}
+
+.questions {
+    list-style-type: none;
+    margin: 1.5rem;
+    padding:  1rem 6rem 1rem 4rem;
+    border-radius: 10px;
+    background-color: rgb(198, 196, 196);
+}
+
+.questions li {
+    font-family: "Arial";
+    font-size: 16px;
+    line-height: 2.5em;
+}
+
+img {
+    width: 700px;
+    height: 500px; 
+
+}
+
+.kristens {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.caption {
+    display: contents;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-style: italic;
+}
